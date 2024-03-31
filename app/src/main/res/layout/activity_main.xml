@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".credential.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:id="@+id/ll1"
+        >
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ecommerce"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Quantum Cart"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:paddingTop="80dp"
+        android:gravity="center"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+
+        android:background="@drawable/background_main">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/email_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:fontFamily="@font/actor"
+                android:textColor="#FFF"
+                android:text="Email Id"
+
+                android:textSize="16sp"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/email"/>
+            <EditText
+
+
+                android:id="@+id/email"
+                app:layout_constraintTop_toBottomOf="@+id/email_tv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/pass_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/actor"
+                android:textColor="#FFF"
+                android:text="Password"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/email" />
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="18sp"
+                android:textColor="#FFF"
+                app:layout_constraintTop_toBottomOf="@id/pass_tv"
+                />
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="68dp"
+                android:text="LOGIN"
+                android:background="@drawable/btn_custom"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:fontFamily="@font/actor"
+                android:textColor="#FFF"
+                android:onClick="login"
+                android:textSize="19sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/password" />
+
+            <Button
+                android:id="@+id/signup_btn"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="SIGN UP"
+                android:fontFamily="@font/actor"
+                android:textColor="#FFF"
+                android:textSize="19sp"
+                android:onClick="signup"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:background="@drawable/btn_custom"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/login_btn" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</ScrollView>

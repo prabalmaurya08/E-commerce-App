@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quantum Cart</string>
+    <string name="campany_name">Campany_Name</string>
+    <string name="firstSlide">Best Price</string>
+    <string name="secondSlide">Fastest Delivery</string>
+    <string name="thirdSlide">Standard Quality</string>
+    <string name="des1">Discover unbeatable value with our exclusive best price offer! For a limited time, seize the opportunity to enjoy top-quality products at an incredible discount. Experience savings like never before – unlock the door to affordability without compromising on excellence. Dive into luxury without breaking the bank; our best price guarantee ensures you get the best deal possible. Act fast before this limited-time offer slips away. Indulge in a shopping experience that combines quality and savings seamlessly. Plus, enjoy the added bonus of free shipping on all orders! Join the ranks of satisfied customers who have already benefited from our best price and unparalleled service. </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="des3">Explore affordability without compromise with our standard quality offerings! Embrace the perfect balance of cost-effectiveness and reliability as you choose from our range of standard-quality products. Our commitment to providing value means that even at the standard price, you receive dependable items that meet your needs. Uncover a world of possibilities without straining your budget, and rest assured that our standard quality products are designed to deliver a satisfactory experience. Join the community of savvy shoppers who appreciate the reliability and affordability of our standard-quality offerings.</string>
+    <string name="new_product_image">new Product Image</string>
+    <string name="des2">
+        Experience unparalleled speed and convenience with our fastest delivery service! When time is of the essence, trust us to prioritize your order, ensuring it reaches your doorstep swiftly. Enjoy the luxury of receiving your desired products in record time without compromising on the quality you expect. Our commitment to excellence extends to the efficiency of our delivery process, ensuring your items arrive promptly. Seize the opportunity to have your purchases in your hands sooner than ever. Take advantage of our express delivery options to streamline your shopping experience. Click now to enjoy the unmatched convenience of our fastest delivery service. We understand the importance of your time, and our swift delivery ensures that you get what you need when you need it
+    </string>
+    <string name="description">Spinach and Artichoke Dip: Serve with tortilla chips, pita bread, or vegetable sticks. Caprese Skewers: Cherry tomatoes, fresh mozzarella balls, and basil leaves drizzled with balsamic glaze. Stuffed Mushrooms: Mushrooms stuffed with a mixture of cream cheese, garlic, herbs, and breadcrumbs.</string>
+    <string name="product_name">Product name</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_quantity">Product Quantity</string>
+    <string name="added_date">Added Date</string>
+    <string name="added_time">Added Time</string>
+    <string name="we_provide_best_product">We Provide Best Product</string>
+    <string name="popular_product">Popular Product</string>
+    <string name="new_product">New Product</string>
+    <string name="see_all">See All</string>
+</resources>

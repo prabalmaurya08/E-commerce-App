@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/appbg_new"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appbg_new_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FireBase"
+        tools:targetApi="31">
+        <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
+            android:name=".SelectAddress"
+            android:exported="false" />
+        <activity
+            android:name=".AddAddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowAllActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Detailed_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".credential.Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".credential.Onboarding"
+            android:exported="false" />
+        <activity
+            android:name=".credential.MainHome"
+            android:exported="false" />
+        <activity
+            android:name=".credential.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".credential.MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+<service android:name=".MyFirebaseMessaging" android:exported="false">
+        <intent-filter>
+            <action
+                android:name="com.google.firebase.MESSAGING_EVENT">
+            </action>
+        </intent-filter>
+    </service>
+    </application>
+
+</manifest>
